@@ -22,29 +22,18 @@
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Home",
+    "url": "https://rangoli.me"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "name": "Contribute",
+      "icon": "github",
+      "url": "https://rangoli-repo-selection.vercel.app/"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
+      "name": "Donate",
+      "icon": "heart",
       "url": "https://mintlify.com/blog"
     }
   ],
@@ -53,39 +42,25 @@
       "group": "Get Started",
       "pages": [
         "introduction",
-        "quickstart",
-        "development"
+        "setup"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "P",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "components/P/pricing"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "T",
       "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "components/T/theme-switcher"
       ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
+    "x": "https://x.com/debugwithakshay",
+    "github": "https://github.com/akshaywritescode/rangoli-docs",
+    "linkedin": "https://www.linkedin.com/in/debugwithakshay/"
   }
 }

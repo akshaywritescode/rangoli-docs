@@ -1,0 +1,49 @@
+---
+title: Theme Swicther Component 
+description: "A customizable theme switcher component that enables seamless toggling between light and dark modes, To use the theme switcher, ensure you have **dark mode functionality set up** in your project. Follow the official **[shadcn dark mode setup guide](https://ui.shadcn.com/docs/dark-mode)** for proper configuration."  
+---
+
+<Frame>
+  <img
+    src="/images/theme-switcher.png"
+    alt="theme swicther"
+  />
+</Frame>
+
+[View Live Demo](https://rangoli-components.vercel.app/t/theme-switcher){openNewTab}
+
+## Component Composition
+```txt component composition
+ThemeSwicther.tsx
+```
+
+### ThemeSwicther
+```tsx @/app/components/ThemeSwitcher.tsx
+// npx shadcn@latest add tabs
+
+"use client"
+
+import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Laptop, MoonIcon, SunIcon } from "lucide-react";
+import { useTheme } from "next-themes"
+
+export default function ThemeSwitcher({ defaultValue }: { defaultValue: "system" | "light" | "dark" }) {
+    const { setTheme } = useTheme();
+
+    return (
+        <Tabs defaultValue={defaultValue}>
+            <TabsList>
+                <TabsTrigger value="system" onClick={() => setTheme("system")}>
+                    <Laptop className="w-4" />
+                </TabsTrigger>
+                <TabsTrigger value="dark" onClick={() => setTheme("dark")}>
+                    <MoonIcon className="w-4" />
+                </TabsTrigger>
+                <TabsTrigger value="light" onClick={() => setTheme("light")}>
+                    <SunIcon className="w-4" />
+                </TabsTrigger>
+            </TabsList>
+        </Tabs>
+    );
+}
+```

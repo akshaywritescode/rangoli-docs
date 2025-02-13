@@ -40,28 +40,19 @@
   "navigation": [
     {
       "group": "Get Started",
-      "pages": [
-        "introduction",
-        "setup"
-      ]
+      "pages": ["introduction", "setup"]
     },
     {
       "group": "P",
-      "pages": [
-        "components/P/pricing"
-      ]
+      "pages": ["components/P/pricing-card", "components/P/pricing-section"]
     },
     {
       "group": "S",
-      "pages": [
-        "components/S/separator"
-      ]
+      "pages": ["components/S/separator"]
     },
     {
       "group": "T",
-      "pages": [
-        "components/T/theme-switcher"
-      ]
+      "pages": ["components/T/theme-switcher"]
     }
   ],
   "footerSocials": {

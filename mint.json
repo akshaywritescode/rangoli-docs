@@ -43,6 +43,10 @@
       "pages": ["introduction", "setup"]
     },
     {
+      "group": "O",
+      "pages": ["components/O/otp-verification"]
+    },
+    {
       "group": "P",
       "pages": ["components/P/pricing-card", "components/P/pricing-section"]
     },

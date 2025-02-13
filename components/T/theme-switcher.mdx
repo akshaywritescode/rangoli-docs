@@ -12,13 +12,20 @@ description: "A customizable theme switcher component that enables seamless togg
 
 [View Live Demo](https://rangoli-components.vercel.app/t/theme-switcher){openNewTab}
 
+
+### Does this depend on any other rangoli components?
+No, Theme Switcher is an independent component, it's not depend on any rangoli components.
+
 ### Usage
 ```tsx anyComponent.tsx
 <ThemeSwitcher defaultValue="dark" />
+```
 
 ### Component Code
 ```tsx @/app/components/ThemeSwitcher.tsx
-// npx shadcn@latest add tabs
+
+//Run The following command to install required shadcn component
+//npx shadcn@latest add tabs
 
 "use client"
 
@@ -26,7 +33,12 @@ import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Laptop, MoonIcon, SunIcon } from "lucide-react";
 import { useTheme } from "next-themes"
 
-export default function ThemeSwitcher({ defaultValue }: { defaultValue: "system" | "light" | "dark" }) {
+type TThemeSwicther = {
+    defaultValue: "system" | "light" | "dark",
+    className?: "string"
+}
+
+export default function ThemeSwitcher({ defaultValue }: TThemeSwicther) {
     const { setTheme } = useTheme();
 
     return (

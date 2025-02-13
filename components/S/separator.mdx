@@ -1,0 +1,45 @@
+---
+title: Separator
+description: "Separator Component Helps you to separate content in components, ensure you have **dark mode functionality set up** in your project. Follow the official **[shadcn dark mode setup guide](https://ui.shadcn.com/docs/dark-mode)** for proper configuration."
+---
+
+<Frame>
+  <img src="/images/separator.png" alt="separator" />
+</Frame>
+
+[View Live Demo](https://rangoli-components.vercel.app/s/separator){openNewTab}
+
+### Does this depend on any other rangoli components?
+
+No, Separator is an independent component, it's not depend on any rangoli components.
+
+### Usage
+```tsx anyComponent.tsx
+<Separator className="w-full" />
+```
+
+### Component Code
+```tsx @app/components/Separator.tsx
+"use client";
+
+import { useTheme } from "next-themes";
+import { useEffect, useState } from "react";
+
+type TSeparator = {
+  className?: string;
+};
+
+export default function Separator({ className }: TSeparator) {
+  const { theme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  // Avoid rendering theme-based class until mounted
+  const themeClass = !mounted ? "" : theme === "light" ? "bg-black/10" : "bg-white/10";
+
+  return <div className={`${className} ${themeClass} h-[1px]`} />;
+}
+```

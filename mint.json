@@ -51,6 +51,10 @@
       "pages": ["components/P/password-input","components/P/password-strength-input","components/P/pricing-card", "components/P/pricing-section"]
     },
     {
+      "group": "R",
+      "pages": ["components/R/reset-password"]
+    },
+    {
       "group": "S",
       "pages": ["components/S/separator"]
     },

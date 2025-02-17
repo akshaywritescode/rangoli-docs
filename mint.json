@@ -60,7 +60,7 @@
     },
     {
       "group": "T",
-      "pages": ["components/T/theme-switcher", "components/T/trusted-by-section"]
+      "pages": ["components/T/theme-switcher", "components/T/trusted-by-section", "components/T/testimonial-card", "components/T/testimonial-section"]
     }
   ],
   "footerSocials": {

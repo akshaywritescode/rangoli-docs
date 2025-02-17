@@ -60,7 +60,7 @@
     },
     {
       "group": "T",
-      "pages": ["components/T/theme-switcher"]
+      "pages": ["components/T/theme-switcher", "components/T/trusted-by-section"]
     }
   ],
   "footerSocials": {

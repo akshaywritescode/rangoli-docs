@@ -31,7 +31,7 @@ Simply copy and paste the code into your project:
 />
 ```
 
-For dependencies and setup, visit the Setup Guide.
+For dependencies and setup, visit the [Setup Guide](https://docs.rangoliui.me/setup).
 
 ## 🎨 Customization
 
@@ -64,7 +64,7 @@ We welcome contributions! To contribute:
 
 ## 💡 Want to Contribute to Live Component Examples?
 
-If you want to contribute to live component examples, we have a separate repository for that! Check out Rangoli Live Components and submit your improvements there.
+If you want to contribute to live component examples, we have a separate repository for that! Check out [Live Components Example Repo](https://github.com/akshaywritescode/rangoli-live-components) and submit your improvements there.
 
 ## 🛠 Setting Up Local Mintlify Server
 
@@ -74,10 +74,11 @@ Rangoli UI documentation is built with **Mintlify**. To set up a local developme
 npx mintlify dev
 ```
 
-For more details, visit the **Mintlify Docs**.
+For more details, visit the [Mintlify Docs](https://mintlify.com/docs/quickstart)
+.
 
 ## 🛡️ License
 
 Rangoli UI is licensed under the **MIT License**.
 
-💖 **Made with love by Akshay Yadav**
+💖 **Made with love by [Akshay Yadav](https://docs.rangoliui.me/setup)**

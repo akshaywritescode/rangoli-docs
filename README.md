@@ -74,4 +74,4 @@ For more details, visit the **Mintlify Docs**.
 
 Rangoli UI is licensed under the **MIT License**.
 
-💖 **Made with love by [Link Text](https://github.com/akshaywritescode)**
+💖 **Made with love by [Akshay Yadav](https://github.com/akshaywritescode)**

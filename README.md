@@ -29,14 +29,15 @@ Simply copy and paste the code into your project:
   ]}
   seeAllFeatureLink="/basic-features"
 />
+```
+
 For dependencies and setup, visit the Setup Guide.
 
-🎨 Customization
-Rangoli UI is fully customizable with Tailwind CSS. Extend styles using your tailwind.config.js:
+## 🎨 Customization
 
-js
-Copy
-Edit
+Rangoli UI is fully customizable with Tailwind CSS. Extend styles using your **tailwind.config.js**:
+
+```js
 module.exports = {
   theme: {
     extend: {
@@ -46,29 +47,37 @@ module.exports = {
     },
   },
 };
-📖 Documentation
-Find full documentation at www.rangoliui.me.
+```
 
-🤝 Contributing
+## 📖 Documentation
+
+Find full documentation at **www.rangoliui.me**.
+
+## 🤝 Contributing
+
 We welcome contributions! To contribute:
 
-Fork the repo 📌
-Create a new branch ✨
-Commit changes 💡
-Submit a PR 🚀
-💡 Want to Contribute to Live Component Examples?
+1. Fork the repo 📌
+2. Create a new branch ✨
+3. Commit changes 💡
+4. Submit a PR 🚀
+
+## 💡 Want to Contribute to Live Component Examples?
+
 If you want to contribute to live component examples, we have a separate repository for that! Check out Rangoli Live Components and submit your improvements there.
 
-🛠 Setting Up Local Mintlify Server
-Rangoli UI documentation is built with Mintlify. To set up a local development server:
+## 🛠 Setting Up Local Mintlify Server
 
-sh
-Copy
-Edit
+Rangoli UI documentation is built with **Mintlify**. To set up a local development server:
+
+```sh
 npx mintlify dev
-For more details, visit the Mintlify Docs.
+```
 
-🛡️ License
-Rangoli UI is licensed under the MIT License.
+For more details, visit the **Mintlify Docs**.
 
-💖 Made with love by Akshay Yadav
+## 🛡️ License
+
+Rangoli UI is licensed under the **MIT License**.
+
+💖 **Made with love by Akshay Yadav**

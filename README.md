@@ -1,32 +1,31 @@
-# Mintlify Starter Kit
+# 🌸 Rangoli UI – Beautifully Crafted Components for Modern Web Apps ✨
 
-Click on `Use this template` to copy the Mintlify starter kit. The starter kit contains examples including
+Rangoli UI is a sleek and customizable React component library built on **shadcn/ui** and **Tailwind CSS**. 🚀 Designed for developers who want **scalable**, **accessible**, and **aesthetic** UI components without the bloat.
 
-- Guide pages
-- Navigation
-- Customizations
-- API Reference pages
-- Use of popular components
+## 🔥 Features
 
-### Development
+✅ Pre-styled, themeable components 🎨  
+✅ Optimized for performance & accessibility ♿  
+✅ Dark mode support 🌙  
+✅ Easy integration with Next.js & Vite ⚡  
+✅ Developer-friendly & lightweight 🚀  
 
-Install the [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview the documentation changes locally. To install, use the following command
+## 🚀 Usage
 
-```
-npm i -g mintlify
-```
+Simply copy and paste the code into your project:
 
-Run the following command at the root of your documentation (where mint.json is)
+```tsx
+<PricingCard
+  planTitle="Basic"
+  planDescription="Create interactive forms that connect to your workflow"
+  price={["24", "242"]}
+  isMonthly={true} /*can change dynamically */
+  features={[
+    "100 responses/mo included",
+    "1 user",
+    "Unlimited forms",
+    "Unlimited questions",
+  ]}
+  seeAllFeatureLink="/basic-features"
+/>```
 
-```
-mintlify dev
-```
-
-### Publishing Changes
-
-Install our Github App to auto propagate changes from your repo to your deployment. Changes will be deployed to production automatically after pushing to the default branch. Find the link to install on your dashboard. 
-
-#### Troubleshooting
-
-- Mintlify dev isn't running - Run `mintlify install` it'll re-install dependencies.
-- Page loads as a 404 - Make sure you are running in a folder with `mint.json`

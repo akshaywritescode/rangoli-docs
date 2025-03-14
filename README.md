@@ -15,29 +15,28 @@ Rangoli UI is a sleek and customizable React component library built on **shadcn
 
 Simply copy and paste the code into your project:
 
-```
+```tsx
 <PricingCard
   planTitle="Basic"
   planDescription="Create interactive forms that connect to your workflow"
   price={["24", "242"]}
   isMonthly={true} /*can change dynamically */
-  features=[
+  features={[
     "100 responses/mo included",
     "1 user",
     "Unlimited forms",
     "Unlimited questions",
-  ]
+  ]}
   seeAllFeatureLink="/basic-features"
 />
-```
+For dependencies and setup, visit the Setup Guide.
 
-For dependencies and setup, visit **Setup Guide**.
+🎨 Customization
+Rangoli UI is fully customizable with Tailwind CSS. Extend styles using your tailwind.config.js:
 
-## 🎨 Customization
-
-Rangoli UI is fully customizable with Tailwind CSS. Extend styles using your **tailwind.config.js**:
-
-```
+js
+Copy
+Edit
 module.exports = {
   theme: {
     extend: {
@@ -47,32 +46,29 @@ module.exports = {
     },
   },
 };
-```
+📖 Documentation
+Find full documentation at www.rangoliui.me.
 
-## 📖 Documentation
-
-Find full documentation at **www.rangoliui.me**.
-
-## 🤝 Contributing
-
+🤝 Contributing
 We welcome contributions! To contribute:
-1. Fork the repo 📌
-2. Create a new branch ✨
-3. Commit changes 💡
-4. Submit a PR 🚀
 
-## 🛠 Setting Up Local Mintlify Server
+Fork the repo 📌
+Create a new branch ✨
+Commit changes 💡
+Submit a PR 🚀
+💡 Want to Contribute to Live Component Examples?
+If you want to contribute to live component examples, we have a separate repository for that! Check out Rangoli Live Components and submit your improvements there.
 
-Rangoli UI documentation is built with **Mintlify**. To set up a local development server:
+🛠 Setting Up Local Mintlify Server
+Rangoli UI documentation is built with Mintlify. To set up a local development server:
 
-```
+sh
+Copy
+Edit
 npx mintlify dev
-```
+For more details, visit the Mintlify Docs.
 
-For more details, visit the **Mintlify Docs**.
+🛡️ License
+Rangoli UI is licensed under the MIT License.
 
-## 🛡️ License
-
-Rangoli UI is licensed under the **MIT License**.
-
-💖 **Made with love by [Akshay Yadav](https://github.com/akshaywritescode)**
+💖 Made with love by Akshay Yadav
